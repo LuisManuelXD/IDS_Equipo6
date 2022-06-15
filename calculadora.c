@@ -4,7 +4,6 @@ float suma(float sumaNumero1, float sumaNumero2);
 float resta(float restaNumero1, float restaNumero2);
 float multiplicacion(float multiNumero1, float multiNumero2);
 
-float multiplicacion(float multinumero1, float multinumero2);
 
 int main() {
     float numero1, numero2;
@@ -25,26 +24,18 @@ int main() {
         break;
 
         case '2':
-<<<<<<< HEAD
-            //printf("La resta de los numeros es: %.2f", resta(numero1, numero2));
-=======
+
             printf("La resta de los numeros es: %.2f", resta(numero1, numero2));
->>>>>>> manuel
+
         break;
 
         case '3':
             printf("La multiplicacion de los numeros es: %.2f", multiplicacion(numero1, numero2));
         break;
 
-<<<<<<< HEAD
-        case '4':
-            //printf("La division de los numeros es: %.2f", division(numero1, numero2));
-        break;
-=======
         /*case '4':
             printf("La division de los numeros es: %.2f", division(numero1, numero2));
         break;*/
->>>>>>> manuel
 
         default:
             printf("Opcion no valida");
@@ -56,11 +47,6 @@ int main() {
 float suma(float sumaNumero1, float sumaNumero2) {
     return sumaNumero1 + sumaNumero2;
 }
-<<<<<<< HEAD
-float multiplicacion(float multinumero1, float multinumero2){
-    return multinumero1 * multinumero2;
-}
-=======
 
 float resta(float restaNumero1, float restaNumero2) {
     return restaNumero1 - restaNumero2;
@@ -69,4 +55,4 @@ float resta(float restaNumero1, float restaNumero2) {
 float multiplicacion(float multiNumero1, float multiNumero2) {
     return multiNumero1 * multiNumero2;
 }
->>>>>>> manuel
+
