@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 float suma(float sumaNumero1, float sumaNumero2);
+float resta(float restaNumero1, float restaNumero2);
 
 int main() {
     float numero1, numero2;
@@ -20,11 +21,11 @@ int main() {
             printf("La suma de los numeros es: %.2f", suma(numero1, numero2));
         break;
 
-        /*case '2':
+        case '2':
             printf("La resta de los numeros es: %.2f", resta(numero1, numero2));
         break;
 
-        case '3':
+        /*case '3':
             printf("La multiplicacion de los numeros es: %.2f", multiplicacion(numero1, numero2));
         break;
 
@@ -41,4 +42,8 @@ int main() {
 
 float suma(float sumaNumero1, float sumaNumero2) {
     return sumaNumero1 + sumaNumero2;
+}
+
+float resta(float restaNumero1, float restaNumero2) {
+    return restaNumero1 - restaNumero2;
 }
